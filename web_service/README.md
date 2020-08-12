@@ -35,13 +35,21 @@ Pēc tam, lai palaist manu tīmekļa pakalpojumu, lūdzu, ievadiet sekojošu kom
 Pēc tīmekļa pakalpojumu palaišanas, ejiet ar pārlūkprogrammu uz *localhost:3000*.
 Jūs redzēsiet galvenu lapu:
 
-### 
+![Tīmekļa pakalpojumu galvena lapa](https://github.com/daniil172101/Gala_projekts/blob/master/web_service/pictures/projekts_1.png)
 
 Galvenā lapā ievādiet atbilstošu elementu nominālus un nospiediet pogu "Simulēt", lai nosimulēt
-ķēdi ar ievādītiem elementu nomināliem. Pēc pogas nospiešanas, ievādītie dati ir nodoti uz ngspice aprēķinām.
+ķēdi ar ievādītiem elementu nomināliem:
+
+![Tīmekļa pakalpojumu galvena lapa ar ievādītām vērtībam](https://github.com/daniil172101/Gala_projekts/blob/master/web_service/pictures/projekts_2.png)
+
+Pēc pogas nospiešanas, ievādītie dati ir nodoti uz ngspice aprēķinām.
 Pēc tam, jūs tiksiet novirzīts uz lapu ar simulācijas rezultātiem:
 
-###
+![Tīmekļa pakalpojumu rezultātu lapa](https://github.com/daniil172101/Gala_projekts/blob/master/web_service/pictures/projekts_3.png)
 
-Lai atgriezties atpakaļ, nospiediet pogu "Atpakaļ".
+Pēc tīmekļa pakalpojumu aprēķiniem, komandrinda izskatīsies šādi:
+
+![Komandrinda skats](https://github.com/daniil172101/Gala_projekts/blob/master/web_service/pictures/projekts_4.png)
+
+Lai atgriezties atpakaļ, nospiediet pogu "Atpakaļ" rezultātu lapā.
 
