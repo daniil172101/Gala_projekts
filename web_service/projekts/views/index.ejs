@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Voltage divider calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script>
+function VoltageDividerData() {
+  var V_in = document.getElementById("voltage_source").value;
+  var R_1 = document.getElementById("resistance_1").value;
+  var R_2 = document.getElementById("resistance_2").value;
+}
+</script>
+
+<h1>Voltage divider calculator</h1>
+<center><img src='https://github.com/daniil172101/RTR108/blob/master/darbi/P12_HTML_and_CSS/shema_1.png?raw=true' width=350 alt='Izmantotas shēmas bilde'></center>
+<p>Jūs tagad atrodāties mana gala projekta lapā - Voltage divider calculator. Šeit jūs varāt aprēķināt spriegumu uz rezistora R2 parastai sprieguma dalītāja shēmai. Augšā jūs varāt redzēt sprieguma dalītāja bildi. Lai aprēķinātu spriegumu uz rezistora R2,lūdzu, ievādiet atbilstošu elementu nominālus zemāk:</p>
+
+<form method="post" action="/result">
+  <label for="voltage_source">Sprieguma avots, V</label>
+  <input id="voltage_source" name="voltage_source" value="0"><br>
+  <label for="resistance_1">Rezistors R1, Omi</label>
+  <input id="resistance_1" name="resistance_1" value="0"><br>
+  <label for="resistance_2">Rezistors R2, Omi</label>
+  <input id="resistance_2" name="resistance_2" value="0"><br><br>
+  <input type="submit" value="Simulēt">
+</form>
+
+
+</body>
+</html>
